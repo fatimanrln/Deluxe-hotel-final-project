@@ -1,0 +1,23 @@
+.item {
+    .iconWrapper {
+        background-color: var(--brown-100);
+        color: var(--brown-500);
+        width: 100px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        & > svg {
+            transition: .2s;
+        };
+    
+    }
+    
+    &:hover {
+        svg {
+            scale: 1.2;
+        };
+    }
+}

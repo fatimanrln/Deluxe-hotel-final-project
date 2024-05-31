@@ -1,0 +1,13 @@
+.text {
+    transition: .2s;
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: 400;
+
+    &.link {
+        text-decoration: none;
+    }
+
+    &.clickable { cursor: pointer; }
+}

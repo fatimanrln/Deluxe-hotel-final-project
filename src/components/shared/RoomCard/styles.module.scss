@@ -1,0 +1,40 @@
+.roomCard {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    height: max-content;
+    
+    .imgContainer {
+        overflow: hidden;
+        aspect-ratio: 1.4 / 1;
+        width: 100%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            transition: .2s;
+        }
+    }
+
+    &:hover {
+        img {
+            scale: 1.1
+        }
+    }
+
+    .content {
+        padding: 15px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: 1px solid var(--gray-150);
+        border-top: none;
+    }
+}
